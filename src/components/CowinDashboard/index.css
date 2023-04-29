@@ -1,0 +1,23 @@
+.bg {
+  background-color: #1c1c2b;
+  padding: 18px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
+}
+.cowin {
+  color: #2cc6c6;
+  font-size: 18px;
+}
+.logodiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.para {
+  color: antiquewhite;
+  font-size: 20px;
+}
