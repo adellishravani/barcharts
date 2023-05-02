@@ -4,7 +4,7 @@ const VaccinationByAge = props => {
   const {ageDetails} = props
   return (
     <div>
-      <h1 className="para">Vaccination By Age</h1>
+      <h1 className="para">Vaccination by age</h1>
       <ResponsiveContainer width={1000} height={400}>
         <PieChart>
           <Pie

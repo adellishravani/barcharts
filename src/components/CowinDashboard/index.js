@@ -47,9 +47,8 @@ class CowinDashboard extends Component {
           coverageDetails={vaccineData.last7DaysVaccination}
         />
 
-        <VaccinationByAge ageDetails={vaccineData.vaccineByAge} />
-
         <VaccinationByGender genderDetails={vaccineData.vaccineByGender} />
+        <VaccinationByAge ageDetails={vaccineData.vaccineByAge} />
       </div>
     )
   }

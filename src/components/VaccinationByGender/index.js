@@ -5,7 +5,7 @@ const VaccinationByGender = props => {
   const {genderDetails} = props
   return (
     <div>
-      <h1 className="para">Vaccination By gender</h1>
+      <h1 className="para">Vaccination by gender</h1>
       <ResponsiveContainer width={1000} height={400}>
         <PieChart>
           <Pie
